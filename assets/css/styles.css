@@ -1,0 +1,30 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background:linear-gradient(to bottom, #000000 5%, #e5e5e5 100%) ;
+    text-align: center;
+    color: #ffffff;
+
+  }
+  
+.titulo{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+}
+.btn{
+    font-size: 13px;
+    background-color: grey;
+}
+.carta{
+    position: relative;
+    width: 100px;
+    left: 100px;
+    margin-left: -75px;
+}
+#computadora-cartas, #jugador-cartas{
+    height: 180px;
+}
