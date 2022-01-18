@@ -27,4 +27,13 @@ html,body {
 }
 #computadora-cartas, #jugador-cartas{
     height: 180px;
+    margin-right: 100px;
+}
+.col{
+    width: 100%;
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
