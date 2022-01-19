@@ -5,6 +5,7 @@ html,body {
     background:linear-gradient(to bottom, #000000 5%, #e5e5e5 100%) ;
     text-align: center;
     color: #ffffff;
+    position: relative;
 
   }
   
@@ -36,4 +37,46 @@ html,body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.resultado{
+    width: 400px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    height: 200px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(236, 236, 236, 0.158);
+    position: absolute;
+    left: calc(50% - 200px);
+    top: calc(50% - 100px);
+    z-index: 10000;
+}
+.resultado p{
+    animation: fadeIn 1s;
+}
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+        transform: rotate(360deg); 
+    }
+    50% {
+        opacity: 1;
+        transform: rotate(0deg); 
+    }
+    75% {
+        opacity: 1;
+        transform: rotate(360deg); 
+    }
+    100% {
+        opacity: 1;
+        transform: rotate(0deg); 
+    }
 }
