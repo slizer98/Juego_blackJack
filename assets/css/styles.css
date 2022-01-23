@@ -16,9 +16,23 @@ html,body {
     font-size: 25px;
     padding-top: 10px;
 }
+.text-center{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .btn{
-    font-size: 13px;
+    width: 150px;
+    font-size: 18px;
     background-color: grey;
+    display: none;
+    margin: 0 15px;
+    /* margin: 0 auto; */
+}
+#btnNuevo{
+    display: block;
+    /* margin: 0 auto; */
 }
 .carta{
     position: relative;
@@ -73,10 +87,8 @@ html,body {
     }
     75% {
         opacity: 1;
-        transform: rotate(360deg); 
     }
     100% {
         opacity: 1;
-        transform: rotate(0deg); 
     }
 }
